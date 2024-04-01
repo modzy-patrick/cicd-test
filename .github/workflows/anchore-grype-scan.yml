@@ -7,6 +7,8 @@ on:
     branches: [ "master" ]
   schedule:
     - cron: '41 16 * * 0'
+  # Configure Manual Trigger
+  workflow_dispatch:
 
 permissions: write-all
 
